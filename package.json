@@ -1,7 +1,10 @@
 {
-  "name": "mortgage-site",
+  "name": "better-clone-site",
   "version": "0.1.0",
   "private": true,
+  "description": "Better.com homepage clone built with React",
+  "author": "Tanisha Gupta",
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
