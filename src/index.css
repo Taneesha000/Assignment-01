@@ -1,0 +1,84 @@
+@import url("./fonts/Graphik-Regular/style.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+  --primary-font: 'Graphik', sans-serif;
+  --secondary-font: 'Montserrat', sans-serif;
+  --primary-color: #281741;
+  --secondary-color: #00bf92;
+  --tertiary-color: #6f6f6f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.end {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 20px;
+  padding: 18px 60px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--primary-font);
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  /* overflow: auto; */
+  padding: 0 60px;
+}
+
+body {
+  transition: background-color .5s;
+}
+
+.move-up {
+  background-color: #E8EAE6;
+  border-radius: 10px;
+  margin-bottom: 8px !important;
+}
+
+.rotate-up {
+  transform: rotate(180deg);
+}
+
+.rotate-down {
+  transform: rotate(0deg);
+}
+
+.my-btn:hover {
+  background-color: #017848 !important;
+  color: #fff;
+  border: 1px solid #017848 !important;
+}
+
+.mobile-logo {
+  margin-left: 32px !important;
+}
